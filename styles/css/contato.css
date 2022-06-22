@@ -1,0 +1,218 @@
+main{
+    width: 75vw;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 2vw;
+    height: 50vw;
+}
+main h1{
+
+}
+main p{
+    font-size: 1.75vw;
+}
+main h3{
+    margin-left: 5vw;
+}
+main input{
+    padding: 0.5vw;
+    margin-left: 5vw;
+    font-size: 1.25vw;
+    width: 25vw;
+}
+.form_nome{
+    display: inline-block;
+}
+.form_email{
+    display: inline-block;
+}
+.form_assunto{
+    margin-top: 2vw;
+}
+.form_assunto input{
+    width: 57vw;
+}
+.form_msg{
+    margin-top: 2vw;
+}
+.form_msg textarea{
+    margin-left: 5vw;
+    font-size: 1.25vw;
+    padding: 1vw;
+    width: 57vw;
+    height: 15vw;
+}
+form button{
+    border-radius: 5vw;
+    width: 15vw;
+    font-size: 1.75vw;
+    margin-right: 15vw;
+    margin-top: 2.5vw;
+    float: right;
+    cursor: pointer;
+    background-color: steelblue;
+    color: white;
+}
+
+
+
+
+
+/*events */
+.btnEvent:hover{
+    transition: 1s;
+    background-color: white;
+    color: steelblue;
+    width: 30vw;
+    margin-right: 10vw;
+    border-color: steelblue;
+}
+
+
+
+
+
+/*responsivo*/
+@media (max-width: 425px){
+    body{
+        overflow-x: hidden;
+    }
+    main{
+        width: 90vw;
+        display: block;
+        text-align: center;
+        height: 170vw;
+        padding: 0vw;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    main h1{
+        font-size: 7vw;
+    }
+    main p{
+        font-size: 5vw;
+        text-align: center;
+    }
+    main h3{
+        margin-left: 0vw;
+    }
+    main input{
+        width: 70vw;
+        font-size: 4vw;
+        margin-left: 0vw;
+    }
+    .form_assunto input{
+        width: 80vw;
+        font-size: 4vw;
+        margin-left: 0vw;
+    }
+    .form_msg textarea{
+        width: 80vw;
+        height: 40vw;
+        font-size: 4vw;
+        margin-left: 0vw;
+    }
+    form button{
+        width: 40vw;
+        font-size: 5vw;
+        margin-right: 4vw;
+        margin-top: 10vw;
+    }
+
+}
+
+@media (max-width: 375px){
+    body{
+        overflow-x: hidden;
+    }
+    main{
+        width: 90vw;
+        display: block;
+        text-align: center;
+        height: 170vw;
+        padding: 0vw;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    main h1{
+        font-size: 7vw;
+    }
+    main p{
+        font-size: 5vw;
+        text-align: center;
+    }
+    main h3{
+        margin-left: 0vw;
+    }
+    main input{
+        width: 70vw;
+        font-size: 4vw;
+        margin-left: 0vw;
+    }
+    .form_assunto input{
+        width: 80vw;
+        font-size: 4vw;
+        margin-left: 0vw;
+    }
+    .form_msg textarea{
+        width: 80vw;
+        height: 40vw;
+        font-size: 4vw;
+        margin-left: 0vw;
+    }
+    form button{
+        width: 40vw;
+        font-size: 5vw;
+        margin-right: 4vw;
+        margin-top: 10vw;
+    }
+
+}
+
+@media (max-width: 320px){
+    body{
+        overflow-x: hidden;
+    }
+    main{
+        width: 90vw;
+        display: block;
+        text-align: center;
+        height: 170vw;
+        padding: 0vw;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    main h1{
+        font-size: 7vw;
+    }
+    main p{
+        font-size: 5vw;
+        text-align: center;
+    }
+    main h3{
+        margin-left: 0vw;
+    }
+    main input{
+        width: 70vw;
+        font-size: 4vw;
+        margin-left: 0vw;
+    }
+    .form_assunto input{
+        width: 80vw;
+        font-size: 4vw;
+        margin-left: 0vw;
+    }
+    .form_msg textarea{
+        width: 80vw;
+        height: 40vw;
+        font-size: 4vw;
+        margin-left: 0vw;
+    }
+    form button{
+        width: 40vw;
+        font-size: 5vw;
+        margin-right: 4vw;
+        margin-top: 10vw;
+    }
+
+}

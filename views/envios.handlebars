@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/contato.css">
+    <link rel="stylesheet" href="/css/envios.css">
+    <title>Document</title>
+</head>
+<body>    
+        {{#each envios}}
+            <main>
+            <form action="/att_envio" method="post">
+                <div class="form_nome">
+                        <h3>ID</h3>
+                        <input type="text" name="id" id="" value="{{id}}" readonly>
+                        <h3>NOME *</h3>
+                        <input type="text" value= "{{nome}}" id="" name="nome" >
+                </div>
+                <div class="form_email">
+                        <h3>EMAIL *</h3>
+                        <input type="email" value="{{email}}" name="email" id="pegar_email">
+                </div>
+                <div class="form_assunto">
+                        <h3>ASSUNTO *</h3>
+                        <input type="text" value="{{assunto}}" name="assunto" id="pegar_assunto">
+                </div>
+                <div class="form_msg">
+                        <h3>MENSAGEM *</h3>
+                        <textarea name="mensagem" id="pegar_msg" cols="30" rows="10">{{mensagem}}</textarea>
+                </div>
+                <button><a href="/delete_envio/{{id}}">EXCLUIR</a></button>
+                <button>SALVAR EDIÇÃO</button>
+            </form>
+            </main>
+        {{/each}}
+</body>
+</html>

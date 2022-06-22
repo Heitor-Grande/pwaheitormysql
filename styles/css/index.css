@@ -1,0 +1,278 @@
+header{
+    margin-top: 5vw;
+    width: 75vw;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 2vw;
+}
+header img{
+    margin-left: 10vw;
+    width: 10vw;
+    height: 10vw;
+    border-radius: 10vw;
+}
+header h1{
+    display: inline-block;
+    width: 25vw;
+    border-bottom: solid;
+    border-color: steelblue;
+    margin-left: 2.5vw;
+    margin-bottom: 2.5vw;
+}
+header a{
+    text-decoration: none;
+    color: black;
+    font-weight: 900;
+}
+header ul{
+    display: inline-block;
+    width: 25vw;
+    margin-left: 21vw;
+}
+.nav{
+    font-size: 1.25vw;
+    list-style-type: none;
+    display: inline-block;
+    border-bottom: solid;
+    border-color: steelblue;
+    text-align: center;
+    width: 10vw;
+    margin-left: 2vw;
+}
+
+
+
+
+
+
+
+
+
+main{
+    background-color: #f1f8fa;
+    width: 75vw;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 2vw;
+}
+main h1{
+
+}
+main p{
+    font-size: 1.75vw;
+}
+
+
+
+
+
+
+article{
+    background-color: #f1f8fa;
+    width: 75vw;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 2vw;
+    margin-top: 5vw;
+}
+article p{
+    font-size: 1.75vw;
+}
+article a{
+    display: block;
+    color: steelblue;
+    font-size: 1.75vw;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5vw;
+
+
+    text-decoration: none;
+    width: 10vw;
+}
+
+footer{
+    margin-top: 10vw;
+    background-color: #f1f8fa;
+    width: 75vw;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 2vw;
+}
+
+
+
+
+
+
+
+/*events*/
+.eventA:hover{
+    color: steelblue;
+    border-bottom: solid;
+    border-color: black;  
+    transition: 1s;
+    font-size: 1.5vw;
+}
+
+
+.eventCurriculo:hover{
+    transition: 1s;
+    text-decoration: underline;
+}
+
+
+
+
+/*responsivo*/
+
+@media (max-width: 425px){
+    header{
+       width: 100vw;
+    }
+    header img{
+        width: 25vw;
+        height: 25vw;
+        margin-left: 37vw;
+    }
+    header h1{
+        margin-left: 110px;
+        font-size: 6vw;
+        width: 50vw;
+        text-align: center;
+        margin-top: 1vw;
+    }
+    header ul{
+        margin-left: 60px;
+        margin-top: 25vw;
+        width: 70vw;
+        padding: 0vw;
+    }   
+    .nav{
+        font-size: 5vw;
+        width: 30vw;
+    }
+    main{
+        margin-top: 5vw;
+    }
+    main h1{
+        font-size: 7vw;
+        
+    }
+    main p{
+        font-size: 5vw;
+    }
+    article p{
+        font-size: 5vw;
+    }
+    article a{
+        font-size: 6vw;
+        width: 50vw;
+    }
+    footer{
+        margin-top: 20vw;
+        text-align: center;
+        background-color: slategray;
+    }
+}
+
+@media (max-width: 375px){
+    header{
+       width: 100vw;
+    }
+    header img{
+        width: 25vw;
+        height: 25vw;
+        margin-left: 37vw;
+    }
+    header h1{
+        font-size: 6vw;
+        display: block;
+        width: 50vw;
+        margin-left: 95px;
+        text-align: center;
+    }
+    header ul{
+        margin-left: 50px;
+        margin-top: 25vw;
+        width: 70vw;
+        padding: 0vw;
+    }   
+    .nav{
+        font-size: 5vw;
+        width: 30vw;
+    }
+    main{
+        margin-top: 5vw;
+    }
+    main h1{
+        font-size: 7vw;
+        
+    }
+    main p{
+        font-size: 5vw;
+    }
+    article p{
+        font-size: 5vw;
+    }
+    article a{
+        font-size: 6vw;
+        width: 50vw;
+    }
+    footer{
+        margin-top: 20vw;
+        text-align: center;
+        background-color: slategray;
+    }
+}
+
+@media (max-width: 320px){
+    header{
+       width: 100vw;
+    }
+    header img{
+        width: 25vw;
+        height: 25vw;
+        margin-left: 37vw;
+    }
+    header h1{
+        margin-left: 80px;
+        font-size: 6vw;
+        width: 50vw;
+        text-align: center;
+        margin-top: 1vw;
+    }
+    header ul{
+        margin-left: 50px;
+        margin-top: 25vw;
+        width: 70vw;
+        padding: 0vw;
+    }   
+    .nav{
+        font-size: 5vw;
+        width: 30vw;
+    }
+    main{
+        margin-top: 5vw;
+    }
+    main h1{
+        font-size: 7vw;
+        
+    }
+    main p{
+        font-size: 5vw;
+    }
+    article p{
+        font-size: 5vw;
+    }
+    article a{
+        font-size: 6vw;
+        width: 50vw;
+    }
+    footer{
+        margin-top: 20vw;
+        text-align: center;
+        background-color: slategray;
+    }
+}

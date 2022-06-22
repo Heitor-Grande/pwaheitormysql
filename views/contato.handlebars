@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/contato.css">
+    <title>Document</title>
+</head>
+<body>
+        <main>
+            <h1>Entre em contato comigo</h1>
+            <p>Se você tiver alguma dúvida preencha o formulário abaixo. Pretendo retornar em até 2 dias.</p>
+
+            <form action="/add_envio" method="post">
+                <div class="form_nome">
+                        <h3>NOME *</h3>
+                        <input type="name" name="nome" id="pegar_nome">
+                </div>
+                <div class="form_email">
+                        <h3>EMAIL *</h3>
+                        <input type="email" name="email" id="pegar_email">
+                </div>
+                <div class="form_assunto">
+                        <h3>ASSUNTO *</h3>
+                        <input type="text" name="assunto" id="pegar_assunto">
+                </div>
+                <div class="form_msg">
+                        <h3>MENSAGEM *</h3>
+                        <textarea name="mensagem" id="pegar_msg" cols="30" rows="10"></textarea>
+                </div>
+
+                <button class="btnEvent" id="btnEnviar">ENVIAR</button>
+            </form>
+        </main>
+</body>
+        <script src="/js/event_envio.js"></script>
+</html>

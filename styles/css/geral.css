@@ -1,0 +1,8 @@
+*{
+    margin: 0vw;
+    padding: 0vw;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#form_login{
+    display: none;
+}
